@@ -1,4 +1,7 @@
-[lab-report-1-week-2](https://afanglt.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report 1](https://afanglt.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+[Lab Report 1](lab-report-1-week-2.html)
+
 
 some text in it (whatever you like).
 
