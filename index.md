@@ -14,20 +14,22 @@ Here's my horrible drawing
 * Wake up
 * Sleep
 * Yes
+
 1) Wake up before your alarm for some reason
 2) Morning dose
 3) Pass out instead of passing exams
 
 I don't know what to call horizontal rule:
 insert text here
+
 ---
 
+
 `Most of these markdowns are similar to discord's markdowns`
-`*Does* **markdowns** work here
+`*Do* **markdowns** work here`
 
 ```
 *You have this which can be used for aesthetic chat stuff*
-YEAH
 ```
 
 ## Trying out a combination of markdown
