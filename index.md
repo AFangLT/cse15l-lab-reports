@@ -15,9 +15,9 @@ Here's my horrible drawing
 * Sleep
 * Yes
 
-1) Wake up before your alarm for some reason
-2) Morning dose
-3) Pass out instead of passing exams
+1. Wake up before your alarm for some reason
+2. Morning dose
+3. Pass out instead of passing exams
 
 I don't know what to call horizontal rule:
 insert text here
