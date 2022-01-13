@@ -1,3 +1,7 @@
+[lab-report-1-week-2](lab-report-1-week-2.html)
+
+[The same link as above but with a different url](https://afanglt.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
 some text in it (whatever you like).
 
 
