@@ -4,7 +4,7 @@ some text in it (whatever you like).
 # Trying out markdown
 **Basic**
 *Thinking about 3d printing food*
-[Link](https://afanglt.github.io/cse15l-lab-reports/anotherfile.html)
+[Is this the title of the link, this is the link to my other file](https://afanglt.github.io/cse15l-lab-reports/anotherfile.html)
 
 Here's my horrible drawing
 ![Image](https://cdn.discordapp.com/attachments/445477621812297731/898009469127106601/LemonV3.jpg)
