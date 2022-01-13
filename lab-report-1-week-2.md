@@ -1,7 +1,7 @@
 ![Image](Breh.png)
 
 # How to log into ieng6 server
-Procedure is in reference to: https://ucsd-cse15l-w22.github.io/week/week1/
+Procedure is in reference to: [https://ucsd-cse15l-w22.github.io/week/week1/](https://ucsd-cse15l-w22.github.io/week/week1/)
 
 1) Download Visual Studio Code
     
@@ -26,13 +26,15 @@ Look for your course-specific account for CSE15L using the link:
  Input $ ssh cs15lwi22zz@ieng6.ucsd.edu (zz should be replaced with the letters to your own account)
 
 If it is the first time connecting to the ieng6 server, then you will get a prompt similar to this:
- ```
+
+ `
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])?
-```
+`
     
 It is expected to get this message for the first time. If it happens too often, it could mean someone is trying to control the connection. Refer to [this link](https://superuser.com/questions/421074/ssh-the-authenticity-of-host-host-cant-be-established/421084#421084) for a more descriptive answer.
 
 Input the password for your account. The password is supposed to be hidden so nothing will show if you type your password. You should get a terminal that is similar to this:
+
 ![Image](sshlogin1.png)
 ![Image](sshlogin2.png)
 
@@ -49,7 +51,9 @@ Some commands that you can use are:
  * cp
  * cat
 
-here's a reference on what it looks like: ![Image](commandexample.png)
+here's a reference on what it looks like: 
+
+![Image](commandexample.png)
 
 4) Moving files over SSH
 
@@ -71,7 +75,7 @@ Compile it on the client using `javac WhereAmI.java` and run it with `java Where
 
 Then type in the following command **on your client**:
 
- `scp [name of file] cs15lwi22zz@ieng6.ucsd.edu:~/`
+ `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 
 You should be prompted for a password in the same manner as you login to the server.
 
@@ -132,7 +136,7 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
     * ctrl + backspace will delete all characters until the next non-alphabetical or non-numerical character
 
 Here's a link of shortcuts from Visual Studio Code on Windows:
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+[https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
         
 
