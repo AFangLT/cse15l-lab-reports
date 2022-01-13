@@ -1,5 +1,3 @@
-![Image](Breh.png)
-
 # How to log into ieng6 server
 Procedure is in reference to: [https://ucsd-cse15l-w22.github.io/week/week1/](https://ucsd-cse15l-w22.github.io/week/week1/)
 
@@ -84,6 +82,7 @@ Login to the server and use the `ls` command to see if your file is in the serve
  You can run the java file in the server using the terminal connected to the server similar to how you would run java files on your computer. Try it out and see what you get compiling then running WhereAmI.java on the server.
     
 Here is a reference image to what the terminal would look like:
+
 ![Image](whereami1.png)
 ![Image](whereami2.png)
 
@@ -138,6 +137,9 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 Here's a link of shortcuts from Visual Studio Code on Windows:
 [https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
-        
+
+I'll leave the image I put during the lab here: 
+
+![Image](Breh.png)
 
     
