@@ -6,6 +6,10 @@ These bugs can be found on [this link](https://github.com/AFangLT/markdown-parse
 
 # Infinite Loop
 
+[Link to Bug](https://github.com/AFangLT/markdown-parse/commit/300529451c183d673f96ec6b1c370e5d066b590d)
+
+[Link to Solution](https://github.com/AFangLT/markdown-parse/commit/e874dfc967d28c1f51dce11c8be404344a823b98)
+
 Adding a line at the end of the markdown file causes an infinite loop because the extra line will cause currentIndex to still be less than the length of the file. 
 
 The int values will then be -1 because there are no brackets or parenthesis after the last link and thus, resets the current index back to the start (currentIndex + 1 = 0) thus causing an infinite loop.
@@ -25,6 +29,10 @@ In order to fix the infinite loop bug, a condition is set to where if we don't f
 ![Image](Images/LoopFix2.jpg)
 
 # Image Link
+
+[Link to Bug](https://github.com/AFangLT/markdown-parse/commit/948dc7e605f2b1994860864ef644c6e56a36dd33)
+
+[Link to Solution](https://github.com/AFangLT/markdown-parse/commit/c38c45862f7e2c89c43fbfef913c1c7f198e1671)
 
 The code is intended to gather the links of the markdown file. However, image links will also be picked up because they have a similar format to a link.
 
@@ -49,6 +57,10 @@ In order to resolve the issue with the image. In the markdown file, the differen
 ![Image](Images/ImageFix.jpg)
 
 # False Links
+
+[Link to Bug](https://github.com/AFangLT/markdown-parse/commit/41e46ae8741171dba8cdd564082f73c3d58eab97)
+
+[Link to Solution](https://github.com/AFangLT/markdown-parse/commit/080d4b3b115b8ac75ac6f90bafe71d89efb3f098)
 
 As stated, the code will also catch items that aren't actually links. The output of the code and markdown file will be pasted here for reference.
 
