@@ -6,8 +6,8 @@ The image below shows the directory to the .ssh folder on VScode. I created the 
 
 
 
-![Image](Images\configandssh.png)
+![Image](Images/configandssh.png)
 
 The `scp` command can also use this shortcut of inputting "ieng6" instead of the course specific account. The image below shows me transferring temporary.txt to the ieng6 server using `scp temporary.txt ieng6:~/`. Logging into the ieng6 server and checking the directory in which the text file was transferred, the temporary.txt was successfully transferred to the server.
 
-![Image](Images\scp.png)
+![Image](Images/scp.png)
