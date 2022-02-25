@@ -16,7 +16,7 @@ Link to my markdown-parse repository: [https://github.com/AFangLT/markdown-parse
 [`code]`](ucsd.edu)
 ```
 
-Expected Output: [`google.com]
+**Expected Output:** [`google.com]
 
 ### Snippet 2:
 
@@ -28,7 +28,7 @@ Expected Output: [`google.com]
 [some escaped \[ brackets \]](example.com)
 ```
 
-Expected Output: [a.com, a.com(()), example.com]
+**Expected Output:** [a.com, a.com(()), example.com]
 
 ### Snippet 3:
 
@@ -59,7 +59,7 @@ And there's still some more text after that.
 And then there's more text
 ```
 
-Expected Output: [https://ucsd-cse15l-w22.github.io/]
+**Expected Output:** [https://ucsd-cse15l-w22.github.io/]
 
 ## Implementation in MarkdownParseTest.java
 
