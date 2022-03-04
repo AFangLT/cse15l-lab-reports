@@ -2,6 +2,8 @@
 
 Link to my markdown-parse repository: [https://github.com/AFangLT/markdown-parse](https://github.com/AFangLT/markdown-parse)
 
+Link to the reviewed repository : [https://github.com/ucsd-cse15l-w22/markdown-parse/tree/33e76593eba50ecbb492020069cd87301ed04528](https://github.com/ucsd-cse15l-w22/markdown-parse/tree/33e76593eba50ecbb492020069cd87301ed04528)
+
 ## Expected Outputs
 
 ### Snippet 1:
@@ -16,7 +18,9 @@ Link to my markdown-parse repository: [https://github.com/AFangLT/markdown-parse
 [`code]`](ucsd.edu)
 ```
 
-**Expected Output:** [`google.com]
+**Expected Output:** ![Image](Images/ExpectedSnippet1.jpg)
+
+The expected output should be [`google.com] based on the preview.
 
 ### Snippet 2:
 
@@ -28,7 +32,9 @@ Link to my markdown-parse repository: [https://github.com/AFangLT/markdown-parse
 [some escaped \[ brackets \]](example.com)
 ```
 
-**Expected Output:** [a.com, a.com(()), example.com]
+**Expected Output:** ![Image](Images/ExpectedSnippet2.jpg)
+
+Expected output should be [a.com, a.com(()), example.com]
 
 ### Snippet 3:
 
@@ -59,13 +65,19 @@ And there's still some more text after that.
 And then there's more text
 ```
 
-**Expected Output:** [https://ucsd-cse15l-w22.github.io/]
+**Expected Output:** ![Image](Images/ExpectedSnippet3.jpg)
+
+Expected output should be [https://ucsd-cse15l-w22.github.io/]
 
 ## Implementation in MarkdownParseTest.java
 
-Below is my implementation of how I test the snippets on my device.
+Below is my implementation of how I test the snippets on my device and similarly with the reviewed implementation.
 
+**Test on my code:**
 ![Image](Images/snippetTests.jpg)
+
+**Test on reviewed implementation:**
+![Image](Images/testReviewedImp.jpg)
 
 ## Running the tests
 
